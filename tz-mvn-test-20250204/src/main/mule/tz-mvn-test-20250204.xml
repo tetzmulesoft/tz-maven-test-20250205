@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="tz-mvn-test-20250204Flow" doc:id="ea7a11bb-728e-40e3-b232-03f2ff640391" >
 		<http:listener doc:name="Listener" doc:id="fd8bdd20-819c-40a1-9842-13138add5d67" config-ref="HTTP_Listener_config" path="/test"/>
-		<set-payload value="Hello World 2025/02/05" doc:name="Set Payload" doc:id="ae784581-90fd-4830-b299-b8c5b8608539" />
+		<set-payload value="Hello World 2025/02/05 (^_^)" doc:name="Set Payload" doc:id="ae784581-90fd-4830-b299-b8c5b8608539" />
 	</flow>
 </mule>
